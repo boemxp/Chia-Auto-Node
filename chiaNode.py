@@ -9,7 +9,7 @@ def titleCredit():
 def mainFunction():
     titleCredit()
     
-    chia_exec_path = os.environ['USERPROFILE'] + "\\AppData\\Local\\chia-blockchain\\app-1.1.5\\resources\\app.asar.unpacked\\daemon\\chia.exe"
+    chia_exec_path = os.environ['USERPROFILE'] + "\\AppData\\Local\\chia-blockchain\\app-1.1.6\\resources\\app.asar.unpacked\\daemon\\chia.exe"
     while True:
         timeNow = datetime.now().strftime("%H:%M:%S")
         print("[" + str(timeNow) + "][System] Fetch new node from iDisk")
